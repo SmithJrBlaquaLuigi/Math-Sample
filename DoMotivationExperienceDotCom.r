@@ -40,15 +40,16 @@ x <- (numeric(8))
 factor(1001 / 8)
 factor(125.25 / 8)
 factor(15.65625 / 8)
-  'Those numbers above are hundredths and ten-thousandths. There is one way we can do. We can dividing them to get a floating point number. '
+  'Those numbers above are hundredths and ten-thousandths. There is one way we can do. 
+We can dividing them to get a floating point number. '
+
   factor (1.95703125 / 8)
   factor (0.24462890625 /8)
-  factor(0.03057861 / 8)
-  factor(0.003822326 / 8)
-  factor (0.0004777908 /8)
-  factor( 0.0002388954 /2)
+  factor(0.03057861328125 / 8)
+  factor(0.00382232666015625 / 8)
   
-  'Now we can understand why the floating point number on the right -> "0.0002388954" cannot be divided 
+  
+  'Now we can understand why the floating point number on the right -> "0.000477790832519531" cannot be divided 
 by 2 any longer, but if you continue to do so, a current number you divide
 will no longer show the floating point number since it shows the negative number and alphabet on the console
 (Of course, the cacluation gets confused and makes it stay that way.)
