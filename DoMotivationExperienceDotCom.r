@@ -99,15 +99,15 @@ class (Polygon + Hexagon)
 0x0000000 - 0xFFFFFFFF
  i <- as.hexmode
  i; class(i)
-}
-{
+
+
  
  Hexagon <- 0x00 - 0xFF
  Polygon <- 0x00 - 0xFF
  
 Polygon + 0xFF
 
-case.names(Polygon * )
+case.names(Polygon)
 Polygon + 0x00 + 0x00 + numeric(0)
     Polygon + 0xFF + 0xFF + numeric(255) ''
     Polygon + 0x1FF + 0x1FF + numeric(511)
@@ -121,7 +121,7 @@ Polygon + 0x00 + 0x00 + numeric(0)
     
   Polygon * numeric(255)
   67108607 / 255 
-   if (Polygon <- 67108607 / 255){
+   if (Polygon <- 67108607 / 255)
      263171.007843137
 
      pgon <- 5
@@ -131,12 +131,66 @@ Polygon + 0x00 + 0x00 + numeric(0)
        
        factor(1032.043 / 255)
        factor (4.04722745098039 / 255)
+
        ##This is how we got a floating point number like this: 0.0158714801999231. 
 
        ## Remember, we have to use division to simplfy the Polygon table using a numeric to get a common factor number as a float.
+
        ## Once you reach 0.015xxxxxxxxxxx, you will no longer divide that number by 255.
-       
+
+    
+        0x0000000 - 0xFFFFFFFF
+       i <- as.hexmode
+       i; class(i)
+   
+  {
+    
+    Hexagon <- 0x00 - 0xFF
+    Polygon <- 0x00 - 0xFF
+    
+    Hexagon + 0xFF
+    
+    case.names(Hexagon)
+    Hexagon + 0x00 + 0x00 + numeric(0)
+    Hexagon + 0xFF + 0xFF + numeric(261)
+    Hexagon + 0x1FF + 0x1FF + numeric(517)
+    Hexagon + 0x1FFF + 0x1FFF + numeric(8197)
+    Hexagon + 0x1FFFF + 0x1FFFF + numeric(131077)
+    Hexagon + 0x1FFFFF + 0x1FFFFF + numeric(2097157)
+    Hexagon + 0x1FFFFFF + 0x1FFFFFF + numeric(33554437)
+    
+    numeric(33554437)
+    'Collection of Hexdecimal tables'
+    
+    Polygon * numeric(255)
+    33554437 / 255 
+    if (Polygon <- 33554437 / 255){
+      131586
+      
+      pgon <- 5
+      hgon <- 6
+      Polygon / 255
+      Hexagon / 1530
+      
+      factor(1032.043 / 255)
+      factor (4.04722745098039 / 255) 'Problems here?!'
+      
+      
+      'Float number for hexagon: 0.0158714801999231'
+261 * 33554437 / 255 
+
+34343953 / 261
+
+131586 / 261
+
+504.1609 / 261
+
+1.931651 / 261
+
+
+'Another float after dividing. Here is the good result of that floating point number: 0.007400962'
        
    }
   
+ }
 }
