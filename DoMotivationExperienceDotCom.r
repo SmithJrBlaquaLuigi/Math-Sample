@@ -1,5 +1,6 @@
 ## Copyright 2018 SmithJrBlaquaLuigi
 ## This file is a small open source code that you can use for R programming practice.
+## This session is about square rooting, mutiplying and dividing the common factors numbers to get the same number as 0.125 (as seen line 40)
 #################################################################################################
 Smith <- Blaqua <-  6
 Smith
@@ -82,6 +83,60 @@ not a float unless you divide the same number over again to get a floating point
 This is different btw. It cannot be 0.125.25 in tenth decimal place because it has two decimals in the number which is not permitted in that type.
 You will recieve a syntax error if you use that number with two decimals to divide the same number.
 
+ 
+' 
+  DominosPizza <- 0.125
+  
+  ##0.125 = 1/8
+ 
+    if (factor(3))
+  returnValue()
+}
+######################################################################################################
+{
+class (Polygon + Hexagon)
+  'We need to convert the numbers to hexdecimal for next step. So here we are.'
+0x0000000 - 0xFFFFFFFF
+ i <- as.hexmode
+ i; class(i)
+}
+{
+ 
+ Hexagon <- 0x00 - 0xFF
+ Polygon <- 0x00 - 0xFF
+ 
+Polygon + 0xFF
 
-  '
- }
+case.names(Polygon * )
+Polygon + 0x00 + 0x00 + numeric(0)
+    Polygon + 0xFF + 0xFF + numeric(255) ''
+    Polygon + 0x1FF + 0x1FF + numeric(511)
+    Polygon + 0x1FFF + 0x1FFF + numeric(767)
+    Polygon + 0x1FFFF + 0x1FFFF + numeric(16127)
+    Polygon + 0x1FFFFF + 0x1FFFFF + numeric(261887)
+    Polygon + 0x1FFFFFF + 0x1FFFFFF + numeric(67108607)
+    
+    numeric(67108607)
+    'Collection of Hexdecimal tables'
+    
+  Polygon * numeric(255)
+  67108607 / 255 
+   if (Polygon <- 67108607 / 255){
+     263171.007843137
+
+     pgon <- 5
+     hgon <- 6
+       Polygon / 255
+       Hexagon / 1530
+       
+       factor(1032.043 / 255)
+       factor (4.04722745098039 / 255)
+       ##This is how we got a floating point number like this: 0.0158714801999231. 
+
+       ## Remember, we have to use division to simplfy the Polygon table using a numeric to get a common factor number as a float.
+       ## Once you reach 0.015xxxxxxxxxxx, you will no longer divide that number by 255.
+       
+       
+   }
+  
+}
